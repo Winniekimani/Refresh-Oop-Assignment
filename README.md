@@ -24,5 +24,5 @@ a single reason to change.
 5.Dependency Inversion Principle.It states that our classes should depend upon interfaces or abstract classes instead of 
 concrete classes and functions.
 
-        -in my code ,the main class(called App) interacts with  interact with interfaces (AddTenantI, RemoveTenantI, etc.), 
+        -in my code PolymorphismDemo class interacts with  interfaces (AddTenantI, RemoveTenantI, etc.), 
         providing a level of abstraction, enabling the use of different house types without relying on specific implementations (Villa, Apartment).
